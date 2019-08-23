@@ -237,7 +237,7 @@ footer {
 
 .map-item ul {
   width: 100%;
-  padding-left: 25%;
+  padding-left: 32%;
 }
 
 .map-item ul li {
@@ -247,7 +247,6 @@ footer {
 
 .map-item ul li:before {
   content: "-";
-  /* padding-left: 37%; */
   padding-right: 2%;
 }
 
@@ -269,6 +268,20 @@ footer a:hover {
 /**
  * レスポンシブ
  */
+@media screen and (max-width: 990px) {
+  .map-item ul {
+    width: 100%;
+    padding-left: 30%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .map-item ul {
+    width: 100%;
+    padding-left: 25%;
+  }
+}
+
 @media screen and (max-width: 702px) {
   footer a {
     font-size: 14px;
