@@ -235,6 +235,11 @@ footer {
   width: 16.66667%;
 }
 
+.map-item ul {
+  width: 100%;
+  padding-left: 25%;
+}
+
 .map-item ul li {
   text-align: left;
   margin: 7px 0;
@@ -242,7 +247,7 @@ footer {
 
 .map-item ul li:before {
   content: "-";
-  padding-left: 20%;
+  /* padding-left: 37%; */
   padding-right: 2%;
 }
 
@@ -264,7 +269,6 @@ footer a:hover {
 /**
  * レスポンシブ
  */
-
 @media screen and (max-width: 702px) {
   footer a {
     font-size: 14px;
