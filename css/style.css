@@ -79,7 +79,7 @@ h2 {
   color: #DD53CF;
   float: left;
   font-weight: bold;
-  width: 20%;
+  width: 16.66667%;
   padding: 10px 0;
   border-radius: 5px;
   text-align: center;
@@ -222,6 +222,10 @@ footer {
   text-align: center; */
 }
 
+.map-item {
+  width: 16.66667%;
+}
+
 .map-item ul li {
   text-align: left;
   margin: 7px 0;
@@ -229,7 +233,7 @@ footer {
 
 .map-item ul li:before {
   content: "-";
-  padding-left: 100px;
+  padding-left: 75px;
   padding-right: 3px;
 }
 
