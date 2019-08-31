@@ -8,6 +8,7 @@
 
 body {
   color: #4d4d4d;
+  margin: 0;
 }
 
 .main {
@@ -109,6 +110,7 @@ h2 {
   /* height: 10%;
   width: 70%; */
   margin: 0 auto;
+  /* width: 100%; */
 }
 
 .news {
